@@ -1,6 +1,5 @@
 import sys
 import socket
-import select
 import threading
 import select
 import string
