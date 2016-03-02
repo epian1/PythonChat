@@ -15,7 +15,6 @@ def xor(string, key):
     return data
 	
 def broadcast (sock, message, usr):
-
     for socket in CLIST:
         if socket != server_socket and socket != sock:
             print 'From: ', usr
